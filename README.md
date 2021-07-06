@@ -1,4 +1,4 @@
-# tuya-cloud-lamp
+# tuya-lamp-bulb
 
 This project is developed using Tuya SDK, which enables you to quickly develop smart devices, branded APP, cloud development project, etc.
 
@@ -118,3 +118,7 @@ Go to Cloud -> API Group and enable Authorization management, Device Management 
 <br>
 <br>
 Now you can use the project.
+
+
+<h3>Note:</h3>
+client_id, client_key, device_id are required for using this project.
