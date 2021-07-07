@@ -111,24 +111,26 @@ while True:
 ```
 
 <h3>Procedure:</h3>
-<br>
-Step 1: CLIENT_ID and SECRET_KEY<br>
-<br>
-Get these details from after making a project in the tuya cloud api. <br>
-Both client id, client key.
-<br>
-<br>
-Step 2: DEVICE_ID<br>
-<br>
-After adding a device to the project you can get the id of the device.
-<br>
-<br>
-Step 3: Request access to API calls<br>
-<br>
-Use the api of tuya and makeapi calls to test the device.
-<br>
-<br>
 
+#### Step 1: CLIENT_ID and SECRET_KEY
+- Register or Login on <a href="https://auth.tuya.com" target="_blanck">Tuya</a>.
+1. Create a cloud development project <a href="https://iot.tuya.com/cloud" target="_blanck">Cloud -> Project</a>.
+2. After successful creation, you will receive the **Client ID** and **Secret Key**.
+
+
+#### Step 2: DEVICE_ID
+1. Install **Tuya Smart** app or **Smart Life** app on your mobile phone.
+2. Go to <a href="https://iot.tuya.com/cloud/appinfo/cappId/device" target="_blanck">Cloud -> Link Devices</a> page.
+3. Selecting a tab **Link Devices by App Account**.
+4. Click **Add App Account** and scan the QR code with **Tuya Smart** app or **Smart Life** app.
+5. Now you can go to devices <a href="https://iot.tuya.com/cloud/appinfo/cappId/deviceList" target="_blanck">Cloud -> Device List</a> and copy **Device ID**.
+    * Notes: Try to select a your region if devices are not displayed.
+
+
+#### Step 3: Request access to API calls
+Go to <a href="https://iot.tuya.com/cloud/appinfo/cappId/setting" target="_blanck">Cloud -> API Group</a> and enable **Authorization management**, **Device Management** and **Device Control**.
+
+<br>
 <h3>Note:</h3>
 In case of errors comment on this project.
 
