@@ -1,4 +1,4 @@
-# tuya-cloud-led-strip
+# tuya-cloud-led
 
 This project is developed using Tuya SDK, which enables you to quickly develop smart devices, branded APP, cloud development project, etc.
 
